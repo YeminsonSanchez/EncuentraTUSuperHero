@@ -1,6 +1,11 @@
 body {
   font-family: "Coming Soon", cursive;
-  background: linear-gradient(to right, rgb(44, 53, 134), rgb(35, 94, 27));
+  /* background: linear-gradient(to right, rgb(44, 53, 134), rgb(35, 94, 27)); */
+
+  background-image: url("https://images.pexels.com/photos/6654177/pexels-photo-6654177.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 .imagenHeroe {
   width: 100%;
@@ -77,7 +82,7 @@ h1 {
   font-size: 50px;
   text-shadow: 2px 3px rgb(0, 0, 0);
   -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: rgba(226, 230, 0, 0.562);
+  -webkit-text-stroke-color: rgba(0, 4, 230, 0.562);
 }
 label {
   font-size: 25px;
@@ -86,4 +91,3 @@ label {
 h3 {
   font-size: 30px;
 }
-/* <canvas class="canvasjs-chart-canvas" width="766" height="400" style="position: absolute; -webkit-tap-highlight-color: transparent; user-select: none;"></canvas> */
