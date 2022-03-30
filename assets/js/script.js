@@ -7,8 +7,6 @@ $(document).ready(function () {
       alert("Debes Ingresar un Número Entero Menor o igual a 731");
     } else {
       $.ajax({
-        type: "GET",
-        dataType: "json",
         url: "https://superheroapi.com/api.php/375658621165413/" + valueInput,
         success: function (response) {
           let name = response.name;
