@@ -9,7 +9,7 @@ $(document).ready(function () {
       $.ajax({
         type: "GET",
         dataType: "json",
-        url: "https://superheroapi.com/api/4905856019427443/" + valueInput,
+        url: "https://superheroapi.com/api/375658621165413/" + valueInput,
         success: function (response) {
           let name = response.name;
           let connections = response.connections["group-affiliation"];
